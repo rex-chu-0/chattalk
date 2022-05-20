@@ -488,9 +488,9 @@ footer {
   left: 34%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .container {
-    padding-left: 20px;
+    max-width: 375px;
   }
   .background {
     display: none;
