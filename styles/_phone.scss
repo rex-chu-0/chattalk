@@ -1,9 +1,5 @@
 @media (max-width: 375px){
 
-    .container{
-        max-width: 90%;
-    }
-
     .background{
         display: none;
     }
@@ -78,46 +74,72 @@
         }
     }
 
+    .proof{
+        margin-top: 62px;
+  
+        &Title{
+            font-size: 28px;
+            line-height: 40px;
+        }
 
-    .proofCard{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 104px;
-        margin-bottom: 134px;
-    
-        & li{
-            width: 80%;
-            position: relative;
-            border-radius: 12px;
-            box-shadow: 0px 2px 10px #000014;
-        }
-    
-        &Img{
-            width: 80px;
-            border-radius: 50%;
-            position: absolute;
-            top: -56px;
-            left: 32px;
-            box-shadow: 0px 2px 10px #000014;
-        }
-    
-        &Content{
-            margin: 48px 32px 24px 32px;
-        }
+        &Card{
+            display: flex;
+            margin-top: 88px;
+            margin-bottom: 94px;
         
-        &Company{
-            margin: 24px 0px 8px 32px;
+            & li{
+                width: 90%;
+            }
+
+            & li:nth-child(n+2){
+                display: none;
+            }
+
+            &Content{
+                margin: 48px 17px 16px 16px;
+            }
+            
+            &Company{
+                margin: 16px 0px 8px 16px;
+            }
+        
+            &Name{
+                margin: 0px 77px 16px 16px;
+            }
+        
+            &Star{
+                display: inline-block;
+                vertical-align: middle;
+            }
         }
-    
-        &Name{
-            display: inline-block;
-            margin: 0px 84px 24px 32px;
+    }
+
+    .CTA{
+
+        &Bg{
+            display: none;
+
+            &SM{
+                display: block;
+                width: 100%;
+            }
         }
-    
-        &Star{
-            display: inline-block;
-            vertical-align: middle;
+
+        &Words{
+            font-size: 24px;
+            line-height: 35px;
+            top: 63%;
+            left: 5%;
         }
+
+        &Btn{
+            top: 76%;
+            left: 32%;
+
+        }
+
+    }
+    .footerContent{
+        padding: 16px;
     }
 }

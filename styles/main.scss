@@ -10,6 +10,10 @@
         box-sizing: border-box;		
     }
 
+	body{
+		background-color: #FFF;  //避免部分瀏覽器深色模式
+	}
+
 .background{
 	max-width: auto;
 	position: absolute;
@@ -106,7 +110,9 @@
 
 .proof{
 	margin-top: 72px;
+	&Title{
 	text-align: center;
+	}
 }
 
 .CTA{
@@ -121,6 +127,14 @@
 		position: absolute;
 		top: 51%;
 		left: 34%;	
+	}
+
+	&Bg{
+		width: 100%;
+
+		&SM{
+			display: none;
+		}
 	}
 	
 }
