@@ -1,6 +1,9 @@
 @import "reset";
 @import "variable";
 @import "font";
+@import "card";
+@import "header";
+@import "footer";
 @import "pad";
 @import "phone";
 @import "btn";
@@ -17,13 +20,7 @@
 	z-index: -1;
 }
 
-.fixedBtn{
-	position: fixed;
-	top: 70%;
-	right: 71px;
-	z-index: 99;
-	cursor: pointer;;
-}
+
 
 .container{
 	max-width: 1120px;
@@ -31,12 +28,7 @@
 	padding: 0px 8px;
 }
 
-header{
-	margin: 24px 0px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+
 
 .banner{
 	width: 100%;
@@ -47,6 +39,30 @@ header{
 	}
 	&Img{
 		width: 49%;
+	}
+}
+
+.plantform{
+    width: 100%;
+	margin-top: 217px;
+    &Title{
+        text-align: center;
+    }
+
+}
+
+.cusmers{
+	width: 100%;
+	margin-top: 100px;
+
+	&Title{
+		color: $colorB;
+		text-align: center;
+	}
+
+	&Content{
+		color: $colorB;
+		text-align: center;
 	}
 }
 
@@ -67,12 +83,4 @@ header{
 	
 }
 
-footer{
-	background: $colorGR;
-}
-
-.footerContent{
-	text-align: center;
-	line-height: 56px;
-}
 

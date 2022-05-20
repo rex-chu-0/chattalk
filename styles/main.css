@@ -80,12 +80,121 @@ body {
   font-size: 48px;
 }
 
+.fw-bold {
+  font-weight: bold;
+}
+
 .lh70 {
   line-height: 70px;
 }
 
 .fcG {
   color: #56C4C5;
+}
+
+.plantformCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 48px;
+}
+
+.plantformCard li {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plantformCardImg {
+  width: 90px;
+}
+
+.plantformCardTitle {
+  margin: 24px 0px;
+  color: #221E1F;
+}
+
+.plantformCardContent {
+  width: 95%;
+  text-align: center;
+  line-height: 24px;
+  color: #747474;
+}
+
+.cusmersCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cusmersCard li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24%;
+  border-radius: 50px;
+}
+
+.cusmersCardImg {
+  width: 260px;
+}
+
+.cusmersCardTitle {
+  color: #56C4C5;
+}
+
+.cusmersCardContent {
+  color: #221E1F;
+}
+
+header {
+  margin: 24px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  background: #F5F5F5;
+}
+
+.footerContent {
+  text-align: center;
+  line-height: 56px;
+}
+
+.fixedBtn {
+  position: fixed;
+  top: 70%;
+  right: 71px;
+  z-index: 99;
+  cursor: pointer;
 }
 
 .btnR {
@@ -127,31 +236,10 @@ body {
   z-index: -1;
 }
 
-.fixedBtn {
-  position: fixed;
-  top: 70%;
-  right: 71px;
-  z-index: 99;
-  cursor: pointer;
-}
-
 .container {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0px 8px;
-}
-
-header {
-  margin: 24px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .banner {
@@ -172,6 +260,30 @@ header {
   width: 49%;
 }
 
+.plantform {
+  width: 100%;
+  margin-top: 217px;
+}
+
+.plantformTitle {
+  text-align: center;
+}
+
+.cusmers {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.cusmersTitle {
+  color: #221E1F;
+  text-align: center;
+}
+
+.cusmersContent {
+  color: #221E1F;
+  text-align: center;
+}
+
 .CTA {
   padding-bottom: 117px;
   position: relative;
@@ -187,14 +299,5 @@ header {
   position: absolute;
   top: 51%;
   left: 34%;
-}
-
-footer {
-  background: #F5F5F5;
-}
-
-.footerContent {
-  text-align: center;
-  line-height: 56px;
 }
 /*# sourceMappingURL=main.css.map */

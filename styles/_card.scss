@@ -1,0 +1,53 @@
+.plantformCard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    
+    & li{
+        width: 23%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;;
+    }
+
+    &Img{
+        width: 90px;
+    }
+    &Title{
+        margin: 24px 0px;
+        color: $colorB;
+    }
+    &Content{
+        width: 95%;
+        text-align: center;
+        line-height: 24px;
+        color: $colorDGR;
+    }
+
+}
+
+.cusmersCard{
+    display: flex;
+    justify-content: space-between;
+
+    & li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 24%;
+        border-radius: 50px;
+    }
+
+    &Img{
+        width: 260px;
+    }
+
+    &Title{
+        color:$colorG;
+    }
+
+    &Content{
+        color:$colorB;
+    }
+
+}

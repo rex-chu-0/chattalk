@@ -1,3 +1,11 @@
+.fixedBtn{
+	position: fixed;
+	top: 70%;
+	right: 71px;
+	z-index: 99;
+	cursor: pointer;;
+}
+
 .btnR{
     background-color: $colorR;
     color: #FFFFFF;
