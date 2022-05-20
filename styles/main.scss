@@ -4,8 +4,6 @@
 @import "card";
 @import "header";
 @import "footer";
-@import "pad";
-@import "phone";
 @import "btn";
 
 * *::before *::after{
@@ -39,6 +37,10 @@
 	}
 	&Img{
 		width: 49%;
+
+		&SM{
+			display: none;
+		}
 	}
 }
 
@@ -124,3 +126,5 @@
 }
 
 
+@import "pad";
+@import "phone";

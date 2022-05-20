@@ -1,0 +1,80 @@
+@media (max-width: 375px){
+
+    .container{
+        padding-left: 20px;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .banner{
+        flex-wrap: wrap;
+        
+        &Content{
+            width: 100%;
+
+            &UpTitle{
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            &MainTitle{
+                font-size: 32px;
+                line-height: 46px;
+            }
+
+            &Content{
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+
+        }
+
+        &Img{
+
+            width: 100%;
+
+            &SM{
+                display: inline;
+            }
+        }
+    }
+
+
+    .logo{
+        width: 130px;
+    }
+
+    .plantform{
+
+            &Title{
+                font-size: 28px;
+                line-height: 40px;
+            }
+
+            &Card{
+            flex-wrap: wrap;
+
+            & li{
+                width: 60%;
+                margin-bottom: 24px;
+            }
+
+            &Img{
+                width: 60px;
+            }
+            &Title{
+                font-size: 18px;
+                line-height: 26px;
+                margin: 16px 0px;
+            }
+            &Content{
+                width: 95%;
+                text-align: center;
+                color: $colorDGR;
+            }
+        }
+    }
+}

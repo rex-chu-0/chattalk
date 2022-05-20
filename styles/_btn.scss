@@ -3,7 +3,7 @@
 	top: 70%;
 	right: 71px;
 	z-index: 99;
-	cursor: pointer;;
+	cursor: pointer;
 }
 
 .btnR{
@@ -12,6 +12,10 @@
     padding:  8px 32px;
     border-radius: 22px;
     text-decoration: none;
+
+    &:hover{
+        color: $colorDGR;
+    }
 }
 
 .btnG{
@@ -20,6 +24,10 @@
     padding:  16px 32px;
     border-radius: 27px;
     text-decoration: none;
+
+    &:hover{
+        color: $colorDGR;
+    }
 }
 
 .toTopBtn{
@@ -30,4 +38,8 @@
 	color: white;
 	text-align: center;
 	line-height: 71px;
+
+    &:hover{
+        color: $colorDGR;
+     }
 }

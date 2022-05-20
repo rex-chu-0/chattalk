@@ -92,6 +92,10 @@ body {
   line-height: 26px;
 }
 
+.lh29 {
+  line-height: 29px;
+}
+
 .lh46 {
   line-height: 46px;
 }
@@ -300,6 +304,10 @@ header {
           align-items: center;
 }
 
+.logo {
+  width: 218px;
+}
+
 footer {
   background: #F5F5F5;
 }
@@ -325,12 +333,20 @@ footer {
   text-decoration: none;
 }
 
+.btnR:hover {
+  color: #747474;
+}
+
 .btnG {
   background-color: #56C4C5;
   color: #FFFFFF;
   padding: 16px 32px;
   border-radius: 27px;
   text-decoration: none;
+}
+
+.btnG:hover {
+  color: #747474;
 }
 
 .toTopBtn {
@@ -341,6 +357,10 @@ footer {
   color: white;
   text-align: center;
   line-height: 71px;
+}
+
+.toTopBtn:hover {
+  color: #747474;
 }
 
 * *::before *::after {
@@ -378,6 +398,10 @@ footer {
 
 .bannerImg {
   width: 49%;
+}
+
+.bannerImgSM {
+  display: none;
 }
 
 .plantform {
@@ -462,5 +486,67 @@ footer {
   position: absolute;
   top: 51%;
   left: 34%;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding-left: 20px;
+  }
+  .background {
+    display: none;
+  }
+  .banner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .bannerContent {
+    width: 100%;
+  }
+  .bannerContentUpTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bannerContentMainTitle {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .bannerContentContent {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .bannerImg {
+    width: 100%;
+  }
+  .bannerImgSM {
+    display: inline;
+  }
+  .logo {
+    width: 130px;
+  }
+  .plantformTitle {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .plantformCard {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .plantformCard li {
+    width: 60%;
+    margin-bottom: 24px;
+  }
+  .plantformCardImg {
+    width: 60px;
+  }
+  .plantformCardTitle {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 16px 0px;
+  }
+  .plantformCardContent {
+    width: 95%;
+    text-align: center;
+    color: #747474;
+  }
 }
 /*# sourceMappingURL=main.css.map */
