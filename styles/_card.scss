@@ -59,3 +59,44 @@
     }
 
 }
+
+.functionCard{
+    display: flex;
+    flex-wrap: wrap;
+    & li{
+        width: 41%;
+        margin-bottom: 28px;
+        margin-right: 47px;
+        border-radius: 12px;
+        box-shadow: 0px 2px 10px #000014;
+    } 
+    
+    &Img{
+        width: 51px;
+        
+            &Bg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 86px;
+                height: 86px;
+                background-color: #fff;
+                border-radius: 50%;
+                box-shadow: 0px 2px 10px #000014;
+                margin: 32px 0px 24px 32px;
+            }
+        }
+
+        &Title{
+            line-height: 26px;
+            margin-left: 32px;
+        }
+    
+        &Content{
+            margin-top: 16px;
+            margin-bottom: 48px;
+            line-height: 24px;
+            margin-left: 32px;
+        }
+
+}

@@ -68,6 +68,39 @@
 	}
 }
 
+.function{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	&Cards{
+		width: 49%;
+	}
+
+	&Content{
+		width: 49%;
+	}
+
+	&Content{
+
+		&Title{
+			margin-top: 165px;
+			margin-bottom: 16px;
+			margin-left: 16%;
+		}
+
+		&Content{
+			margin-bottom: 40px;
+			margin-left: 16%;
+		}
+
+		&Btn{
+			margin-left: 16%;
+		}
+
+	}
+
+}
 
 .CTA{
 	padding-bottom: 117px;
