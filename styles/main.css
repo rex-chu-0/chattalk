@@ -240,6 +240,53 @@ body {
   margin-left: 32px;
 }
 
+.proofCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 104px;
+  margin-bottom: 134px;
+}
+
+.proofCard li {
+  width: 32%;
+  position: relative;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 10px #000014;
+          box-shadow: 0px 2px 10px #000014;
+}
+
+.proofCardImg {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -56px;
+  left: 32px;
+  -webkit-box-shadow: 0px 2px 10px #000014;
+          box-shadow: 0px 2px 10px #000014;
+}
+
+.proofCardContent {
+  margin: 48px 32px 24px 32px;
+}
+
+.proofCardCompany {
+  margin: 24px 0px 8px 32px;
+}
+
+.proofCardName {
+  display: inline-block;
+  margin: 0px 84px 24px 32px;
+}
+
+.proofCardStar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 header {
   margin: 24px 0px;
   display: -webkit-box;
@@ -393,6 +440,11 @@ footer {
 
 .functionContentBtn {
   margin-left: 16%;
+}
+
+.proof {
+  margin-top: 72px;
+  text-align: center;
 }
 
 .CTA {
