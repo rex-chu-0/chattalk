@@ -54,6 +54,7 @@
 .cusmers{
 	width: 100%;
 	margin-top: 100px;
+	margin-bottom: 100px;
 
 	&Title{
 		color: $colorB;
@@ -63,6 +64,7 @@
 	&Content{
 		color: $colorB;
 		text-align: center;
+		margin: 16px 0px 48px 0px;
 	}
 }
 
