@@ -1,0 +1,25 @@
+.btnR{
+    background-color: $colorR;
+    color: #FFFFFF;
+    padding:  8px 32px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+.btnG{
+    background-color: $colorG;
+    color: #FFFFFF;
+    padding:  16px 32px;
+    border-radius: 27px;
+    text-decoration: none;
+}
+
+.toTopBtn{
+	width: 71px;
+	height: 71px;
+	border-radius: 50px;
+	background-color: $colorG;
+	color: white;
+	text-align: center;
+	line-height: 71px;
+}

@@ -1,0 +1,78 @@
+@import "reset";
+@import "variable";
+@import "font";
+@import "pad";
+@import "phone";
+@import "btn";
+
+* *::before *::after{
+        box-sizing: border-box;		
+    }
+
+.background{
+	max-width: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.fixedBtn{
+	position: fixed;
+	top: 70%;
+	right: 71px;
+	z-index: 99;
+	cursor: pointer;;
+}
+
+.container{
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0px 8px;
+}
+
+header{
+	margin: 24px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	&Content{
+		width: 49%;
+	}
+	&Img{
+		width: 49%;
+	}
+}
+
+
+.CTA{
+	padding-bottom: 117px;
+	position: relative;
+	&Btn{
+		position: absolute;
+		top: 70%;
+		left: 45%;
+	}
+	&Words{
+		position: absolute;
+		top: 51%;
+		left: 34%;	
+	}
+	
+}
+
+footer{
+	background: $colorGR;
+}
+
+.footerContent{
+	text-align: center;
+	line-height: 56px;
+}
+
