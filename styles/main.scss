@@ -175,8 +175,10 @@
 	}
 
 	&Card{
-		width: 49%;
+		width: 35%;
 		margin: 0px 10px;
+		padding-bottom: 44px; // 因按鈕margin失效，故用另一個方向推擠
+		margin-bottom: 100px;
 		border-radius: 12px;
 		background-color: #fff;
 		box-shadow: 0px 2px 10px #000014;
@@ -196,7 +198,7 @@
 			margin-bottom: 24px;
 
 			&Content{
-			width: 169px;
+			width: 38%;
 			height: 108px;
 			background-color: $colorGR;
 			border-radius: 12px;
@@ -213,9 +215,25 @@
 			}
 		}
 
+		& ul{
+			margin-bottom: 44px;
+			// 因按鈕margin失效，故用另一個方向推擠
+		}
+
 		&FunciontList{
 			margin: 8px 0px;
 			text-align: left;
+
+			&::before{
+				content: '';
+				background: url('../img/icon_check.svg');
+				width: 19px;
+				height: 16px;
+				margin-left: 29px;
+				margin-right: 13px;
+				display: inline-block;
+
+			}
 		}
 
 	}
