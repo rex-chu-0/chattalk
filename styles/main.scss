@@ -203,6 +203,10 @@
 			position: relative;
 			cursor: pointer;
 
+			&:hover{
+				color: $colorG;
+			}
+
 			&Close::after{
 				content: '';
 				background-image: url(../img/icon_plus.svg);

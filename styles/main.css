@@ -705,6 +705,10 @@ body {
   cursor: pointer;
 }
 
+.QAListTitle:hover {
+  color: #56C4C5;
+}
+
 .QAListTitleClose::after {
   content: '';
   background-image: url(../img/icon_plus.svg);
