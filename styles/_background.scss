@@ -1,0 +1,32 @@
+.background{
+
+	&Top{
+        max-width: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+	}
+
+    &Ball01
+    {
+        position: absolute;
+        left: -280px;
+        top: -300px;
+        z-index: -1;
+    }
+
+    &Ball02{
+        position: absolute;
+        right: -200px;
+        bottom: -200px;
+        z-index: -1;
+    }
+
+    &Ball03{
+        position: absolute;
+        left: -90px;
+        z-index: -1;
+    }
+
+}

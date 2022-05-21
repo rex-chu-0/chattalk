@@ -2,6 +2,7 @@
 @import "variable";
 @import "font";
 @import "card";
+@import "background";
 @import "header";
 @import "footer";
 @import "btn";
@@ -14,26 +15,13 @@
 		background-color: #FFF;  //避免部分瀏覽器深色模式
 	}
 
-.background{
-
-	&Top{
-	max-width: auto;
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: -1;
-	}
-
-}
-
-
 
 .container{
 	max-width: 1120px;
 	margin: 0 auto;
 	padding: 0px 8px;
+	position: relative;
 }
-
 
 
 .banner{
@@ -51,6 +39,7 @@
 .plantform{
     width: 100%;
 	margin-top: 217px;
+	position: relative;
     &Title{
         text-align: center;
     }
@@ -61,7 +50,7 @@
 	width: 100%;
 	margin-top: 100px;
 	margin-bottom: 100px;
-
+	position: relative;
 	&Title{
 		color: $colorB;
 		text-align: center;
@@ -110,6 +99,7 @@
 
 .proof{
 	margin-top: 72px;
+	position: relative;
 	&Title{
 	text-align: center;
 	}
