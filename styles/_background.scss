@@ -8,4 +8,15 @@
         z-index: -1;
 	}
 
+        &PriceBanner{
+                width: 100%;
+                height: 470px;
+                background-color: #F7F9FD;
+                border-bottom-left-radius: 300px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -2;
+        }
+
 }
