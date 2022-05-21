@@ -41,10 +41,6 @@
 	}
 	&Img{
 		width: 49%;
-
-		&SM{
-			display: none;
-		}
 	}
 }
 
@@ -118,15 +114,16 @@
 .CTA{
 	padding-bottom: 117px;
 	position: relative;
-	&Btn{
-		position: absolute;
-		top: 70%;
-		left: 45%;
+
+	&Content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
-	&Words{
-		position: absolute;
-		top: 51%;
-		left: 34%;	
+
+	&Btn{
+		margin-top: 36px;
 	}
 
 	&Bg{

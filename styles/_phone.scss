@@ -4,12 +4,21 @@
         display: none;
     }
 
+    .container{
+        padding: 0px 20px;
+    }
+
+    .fixedBtn{
+        top: 70%;
+        right: 16px;
+    }
+
     .banner{
         flex-wrap: wrap;
         
         &Content{
             width: 100%;
-
+            text-align: center;
             &UpTitle{
                 font-size: 16px;
                 line-height: 24px;
@@ -31,6 +40,10 @@
         &Img{
 
             width: 100%;
+            background-image: url(../img/bg_home_sm.svg);
+            background-repeat: no-repeat;
+            background-size: 334px 244px;
+            background-position-y: 90px;
 
             &SM{
                 display: inline;
@@ -44,7 +57,8 @@
     }
 
     .plantform{
-
+        margin-top: 99px;
+        
             &Title{
                 font-size: 28px;
                 line-height: 40px;
@@ -74,6 +88,86 @@
         }
     }
 
+    .cusmers{
+
+        margin-top: 60px;
+
+        &Title{
+            font-size: 28px;
+            line-height: 40px;
+        }
+    
+        &Content{
+            font-size: 18px;
+            list-style: 26px;
+            margin-bottom: 32px;
+        }
+
+        &Card{
+
+            flex-wrap: wrap;
+            justify-content: center;
+        
+            & li{
+                width: 70%;
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    .function{
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    
+        &Cards{
+            width: 62%;
+        }
+    
+        &Content{
+            width: 90%;
+            margin: 0;
+        }
+    
+        &Content{
+            text-align: center;
+            &Title{
+                margin-top: 0px;
+                margin-left: 0px;
+                font-size: 28px;
+                line-height: 40px;
+            }
+    
+            &Content{
+                margin-bottom: 28px;
+                margin-left: 0px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+    
+            &Btn{
+                margin-left: 0px;
+            }
+    
+        }
+
+        &Card{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 44px;
+
+            & li{
+                width: 100%;
+                margin-bottom: 24px;
+                margin-right: 0px;
+            } 
+        }
+    
+    }
+    
+
     .proof{
         margin-top: 62px;
   
@@ -84,6 +178,7 @@
 
         &Card{
             display: flex;
+            justify-content: center;
             margin-top: 88px;
             margin-bottom: 94px;
         
@@ -128,14 +223,6 @@
         &Words{
             font-size: 24px;
             line-height: 35px;
-            top: 63%;
-            left: 5%;
-        }
-
-        &Btn{
-            top: 76%;
-            left: 32%;
-
         }
 
     }
