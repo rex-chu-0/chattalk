@@ -56,6 +56,10 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+.fz12 {
+  font-size: 12px;
+}
+
 .fz16 {
   font-size: 16px;
 }
@@ -72,6 +76,10 @@ body {
   font-size: 24px;
 }
 
+.fz29 {
+  font-size: 29px;
+}
+
 .fz32 {
   font-size: 32px;
 }
@@ -84,6 +92,10 @@ body {
   font-weight: bold;
 }
 
+.lh17 {
+  line-height: 17px;
+}
+
 .lh24 {
   line-height: 24px;
 }
@@ -94,6 +106,14 @@ body {
 
 .lh29 {
   line-height: 29px;
+}
+
+.lh35 {
+  line-height: 35px;
+}
+
+.lh42 {
+  line-height: 42px;
 }
 
 .lh46 {
@@ -347,19 +367,23 @@ footer {
 }
 
 .btnR:hover {
-  color: #747474;
+  border: 1px solid #FF5D50;
+  background-color: #fff;
+  color: #FF5D50;
 }
 
 .btnG {
   background-color: #56C4C5;
   color: #FFFFFF;
-  padding: 16px 32px;
+  padding: 12px 32px;
   border-radius: 27px;
   text-decoration: none;
 }
 
 .btnG:hover {
-  color: #747474;
+  border: 1px solid #56C4C5;
+  background-color: #fff;
+  color: #56C4C5;
 }
 
 .btnW {
@@ -387,7 +411,9 @@ footer {
 }
 
 .toTopBtn:hover {
-  color: #747474;
+  border: 1px solid #56C4C5;
+  background-color: #fff;
+  color: #56C4C5;
 }
 
 * *::before *::after {
@@ -547,6 +573,87 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.plan {
+  text-align: center;
+}
+
+.planTitle {
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.planBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.planBtn {
+  margin: 0px 8px;
+}
+
+.planCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.planCard {
+  width: 49%;
+  margin: 0px 10px;
+  border-radius: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 10px #000014;
+          box-shadow: 0px 2px 10px #000014;
+}
+
+.planCardTitle {
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.planCardContent {
+  margin: 32px 0px;
+}
+
+.planCardPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+.planCardPriceContent {
+  width: 169px;
+  height: 108px;
+  background-color: #F5F5F5;
+  border-radius: 12px;
+}
+
+.planCardPriceContentTitle {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.planCardPriceContentEqual {
+  margin: 33px 17px 0px 21px;
+}
+
+.planCardFunciontList {
+  margin: 8px 0px;
+  text-align: left;
 }
 
 @media (max-width: 375px) {

@@ -14,19 +14,23 @@
     text-decoration: none;
 
     &:hover{
-        color: $colorDGR;
+        border:1px solid $colorR;
+        background-color: #fff;
+        color: $colorR;
     }
 }
 
 .btnG{
     background-color: $colorG;
     color: #FFFFFF;
-    padding:  16px 32px;
+    padding:  12px 32px;
     border-radius: 27px;
     text-decoration: none;
 
     &:hover{
-        color: $colorDGR;
+        border:1px solid $colorG;
+        background-color: #fff;
+        color: $colorG;
     }
 }
 
@@ -55,6 +59,8 @@
 	line-height: 71px;
 
     &:hover{
-        color: $colorDGR;
+        border:1px solid $colorG;
+        background-color: #fff;
+        color: $colorG;
      }
 }
