@@ -1,5 +1,6 @@
 @media (max-width: 375px){
 
+    // 首頁起
     body{
         background-size: 35% ,44% ,153px;
 		background-position: left -77px top 743px ,top 3067px right -47px ,top 4827px
@@ -67,7 +68,6 @@
             }
         }
     }
-
 
     .logo{
         width: 130px;
@@ -184,7 +184,6 @@
     
     }
     
-
     .proof{
         margin-top: 62px;
   
@@ -246,4 +245,147 @@
     .footerContent{
         padding: 16px;
     }
+    // 首頁終
+    
+    //價格頁起{
+
+        .backgroundPriceBanner,.priceBannerImg{
+            display:none;
+        }
+        .priceBanner{
+
+            &Title{
+                font-size: 32px;
+                line-height: 46px;
+            }
+
+            &Img{
+
+                &Mobile{
+                    display: block;
+                    background-color: #F7F9FD;
+                    border-bottom-left-radius: 180px;
+                    position: absolute;
+                    top: 48px;
+                    left: 0;
+                    width: 100%;
+                    z-index: -1;
+                    
+                }
+            }
+
+        }
+
+
+    .plan{
+
+	    text-align: center;
+
+	    &Title{
+		    margin-top: 60px;
+		    margin-bottom: 24px;
+	    }
+
+	    &Btns{
+            flex-wrap: wrap;
+            justify-content: center;
+	    }
+
+	    &Btn{
+		    margin: 0px 3px;
+	    }
+
+	    &Card{
+            width: 90%;
+            margin-bottom: 24px;
+
+            &FunciontList{
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            &Price{
+                margin-bottom: 27px;
+    
+                &Content{
+                width: 41%;
+                height: 89px;
+                background-color: $colorGR;
+                border-radius: 12px;
+    
+                    &Num{
+                        font-size: 28px;
+                        font-weight: normal;
+                    }
+                    
+                    &Title{
+                        margin-top: 16px;
+                        margin-bottom: 8px;
+                    }
+    
+                    &Equal{
+                        margin: 33px 6px 0px 6px;
+                    }
+                
+                }
+            }
+         }
+
+		&Title{
+			margin-top: 421px;
+			margin-bottom: 24px;
+		}
+
+		& ul{
+			margin-bottom: 35px;
+			// 因按鈕margin失效，故用另一個方向推擠
+		}
+
+	}
+
+}
+
+    .plan{
+
+        &Cards{
+            flex-wrap: wrap;
+        }
+        &Card{
+            width: 89%;
+
+            &FunctionList{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    
+    .QA{
+        width: 89%;
+        padding:0;
+
+        &List{
+            
+            &Title{
+                font-size: 16px;
+                line-height: 24px;
+                padding-left: 16px;
+            
+            &Close::after{
+                width: 17px;
+                height: 17px;
+                right: 16px;
+            }
+
+            &Open::after{
+                width: 17px;
+                height: 17px;
+                right: 16px;
+            }
+        }
+    }
+
+    .btnW{
+        padding: 8px 16px;
+        }
 }

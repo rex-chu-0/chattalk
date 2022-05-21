@@ -316,6 +316,71 @@ body {
   vertical-align: middle;
 }
 
+.planCard {
+  width: 35%;
+  margin: 0px 10px;
+  padding-bottom: 44px;
+  margin-bottom: 100px;
+  border-radius: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
+}
+
+.planCardTitle {
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.planCardContent {
+  margin: 32px 0px;
+}
+
+.planCardPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+.planCardPriceContent {
+  width: 38%;
+  height: 108px;
+  background-color: #F5F5F5;
+  border-radius: 12px;
+}
+
+.planCardPriceContentTitle {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.planCardPriceContentEqual {
+  margin: 33px 17px 0px 21px;
+}
+
+.planCard ul {
+  margin-bottom: 44px;
+}
+
+.planCardFunciontList {
+  margin: 8px 0px;
+  text-align: left;
+}
+
+.planCardFunciontList::before {
+  content: '';
+  background: url("../img/icon_check.svg");
+  width: 19px;
+  height: 16px;
+  margin-left: 29px;
+  margin-right: 13px;
+  display: inline-block;
+}
+
 .backgroundTop {
   max-width: auto;
   position: absolute;
@@ -581,6 +646,10 @@ body {
   right: 0;
 }
 
+.priceBannerImgMobile {
+  display: none;
+}
+
 .plan {
   text-align: center;
 }
@@ -611,71 +680,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.planCard {
-  width: 35%;
-  margin: 0px 10px;
-  padding-bottom: 44px;
-  margin-bottom: 100px;
-  border-radius: 12px;
-  background-color: #fff;
-  -webkit-box-shadow: 0px 2px 10px #00000014;
-          box-shadow: 0px 2px 10px #00000014;
-}
-
-.planCardTitle {
-  margin-top: 10px;
-  margin-bottom: 19px;
-}
-
-.planCardContent {
-  margin: 32px 0px;
-}
-
-.planCardPrice {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 24px;
-}
-
-.planCardPriceContent {
-  width: 38%;
-  height: 108px;
-  background-color: #F5F5F5;
-  border-radius: 12px;
-}
-
-.planCardPriceContentTitle {
-  margin-top: 24px;
-  margin-bottom: 8px;
-}
-
-.planCardPriceContentEqual {
-  margin: 33px 17px 0px 21px;
-}
-
-.planCard ul {
-  margin-bottom: 44px;
-}
-
-.planCardFunciontList {
-  margin: 8px 0px;
-  text-align: left;
-}
-
-.planCardFunciontList::before {
-  content: '';
-  background: url("../img/icon_check.svg");
-  width: 19px;
-  height: 16px;
-  margin-left: 29px;
-  margin-right: 13px;
-  display: inline-block;
 }
 
 .QA {
@@ -940,5 +944,115 @@ body {
   .footerContent {
     padding: 16px;
   }
+  .backgroundPriceBanner, .priceBannerImg {
+    display: none;
+  }
+  .priceBannerTitle {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .priceBannerImgMobile {
+    display: block;
+    background-color: #F7F9FD;
+    border-bottom-left-radius: 180px;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .plan {
+    text-align: center;
+  }
+  .planTitle {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+  .planBtns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .planBtn {
+    margin: 0px 3px;
+  }
+  .planCard {
+    width: 90%;
+    margin-bottom: 24px;
+  }
+  .planCardFunciontList {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .planCardPrice {
+    margin-bottom: 27px;
+  }
+  .planCardPriceContent {
+    width: 41%;
+    height: 89px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+  }
+  .planCardPriceContentNum {
+    font-size: 28px;
+    font-weight: normal;
+  }
+  .planCardPriceContentTitle {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .planCardPriceContentEqual {
+    margin: 33px 6px 0px 6px;
+  }
+  .planTitle {
+    margin-top: 421px;
+    margin-bottom: 24px;
+  }
+  .plan ul {
+    margin-bottom: 35px;
+  }
+}
+
+.planCards {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.planCard {
+  width: 89%;
+}
+
+.planCardFunctionList {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.QA {
+  width: 89%;
+  padding: 0;
+}
+
+.QAListTitle {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.QAListTitleClose::after {
+  width: 17px;
+  height: 17px;
+  right: 16px;
+}
+
+.QAListTitleOpen::after {
+  width: 17px;
+  height: 17px;
+  right: 16px;
+}
+
+.QA .btnW {
+  padding: 8px 16px;
 }
 /*# sourceMappingURL=main.css.map */
