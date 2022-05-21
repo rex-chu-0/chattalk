@@ -13,6 +13,10 @@
 
 	body{
 		background-color: #FFF;  //避免部分瀏覽器深色模式
+		background-image: url(../img/ball01.svg),url(../img/ball02.svg),url(../img/ball03.svg);
+		background-repeat: no-repeat;
+		background-position: left -222px top 565px ,top 1694px right -100px ,top 2640px
+        left 150px;
 	}
 
 
