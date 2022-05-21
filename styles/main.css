@@ -944,6 +944,9 @@ body {
   .footerContent {
     padding: 16px;
   }
+  .btnW {
+    padding: 8px 16px;
+  }
   .backgroundPriceBanner, .priceBannerImg {
     display: none;
   }
@@ -961,12 +964,18 @@ body {
     width: 100%;
     z-index: -1;
   }
-  .plan {
-    text-align: center;
+  .planCards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .planTitle {
     margin-top: 60px;
     margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .planBtns {
     -ms-flex-wrap: wrap;
@@ -975,16 +984,23 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .planBtns li {
+    margin: 20px 0px;
+  }
   .planBtn {
     margin: 0px 3px;
   }
   .planCard {
-    width: 90%;
+    width: 100%;
     margin-bottom: 24px;
   }
   .planCardFunciontList {
     font-size: 14px;
     line-height: 20px;
+  }
+  .planCardFunciontList::before {
+    margin-left: 16px;
+    margin-right: 14px;
   }
   .planCardPrice {
     margin-bottom: 27px;
@@ -1015,22 +1031,8 @@ body {
   }
 }
 
-.planCards {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.planCard {
-  width: 89%;
-}
-
-.planCardFunctionList {
-  font-size: 14px;
-  line-height: 20px;
-}
-
 .QA {
-  width: 89%;
+  width: 100%;
   padding: 0;
 }
 
@@ -1050,9 +1052,5 @@ body {
   width: 17px;
   height: 17px;
   right: 16px;
-}
-
-.QA .btnW {
-  padding: 8px 16px;
 }
 /*# sourceMappingURL=main.css.map */

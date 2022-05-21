@@ -249,6 +249,10 @@
     
     //價格頁起{
 
+        .btnW{
+            padding: 8px 16px;
+            }
+
         .backgroundPriceBanner,.priceBannerImg{
             display:none;
         }
@@ -279,16 +283,27 @@
 
     .plan{
 
-	    text-align: center;
+        &Cards{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
 
 	    &Title{
 		    margin-top: 60px;
 		    margin-bottom: 24px;
+            font-size: 32px;
+            line-height: 40px;
 	    }
 
 	    &Btns{
             flex-wrap: wrap;
             justify-content: center;
+
+            & li{
+                // 沒有做curasel 排成上下兩排
+                margin: 20px 0px;
+
+            }
 	    }
 
 	    &Btn{
@@ -296,12 +311,17 @@
 	    }
 
 	    &Card{
-            width: 90%;
+            width: 100%;
             margin-bottom: 24px;
 
             &FunciontList{
                 font-size: 14px;
                 line-height: 20px;
+
+                &::before{
+                    margin-left: 16px;
+                    margin-right: 14px;
+                }
             }
 
             &Price{
@@ -344,24 +364,9 @@
 	}
 
 }
-
-    .plan{
-
-        &Cards{
-            flex-wrap: wrap;
-        }
-        &Card{
-            width: 89%;
-
-            &FunctionList{
-                font-size: 14px;
-                line-height: 20px;
-            }
-        }
-    }
     
     .QA{
-        width: 89%;
+        width: 100%;
         padding:0;
 
         &List{
@@ -385,7 +390,5 @@
         }
     }
 
-    .btnW{
-        padding: 8px 16px;
-        }
+ 
 }
