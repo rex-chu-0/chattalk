@@ -134,6 +134,22 @@
 	
 }
 
+.priceBanner{
+	
+	background-color: #F7F9FD;
+	border-bottom-left-radius: 300px;
+
+	&Title{
+		margin-top: 92px;
+		margin-bottom: 16px;
+	}
+	&Img{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
 
 @import "pad";
 @import "phone";

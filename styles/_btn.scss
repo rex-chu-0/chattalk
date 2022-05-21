@@ -30,6 +30,21 @@
     }
 }
 
+.btnW
+{   
+    border: 1px solid $colorG;
+    background-color: white;
+    color: $colorG;
+    padding:  12px 32px;
+    border-radius: 27px;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+        background-color: $colorG;
+    }
+}
+
 .toTopBtn{
 	width: 71px;
 	height: 71px;

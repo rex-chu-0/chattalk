@@ -362,6 +362,20 @@ footer {
   color: #747474;
 }
 
+.btnW {
+  border: 1px solid #56C4C5;
+  background-color: white;
+  color: #56C4C5;
+  padding: 12px 32px;
+  border-radius: 27px;
+  text-decoration: none;
+}
+
+.btnW:hover {
+  color: white;
+  background-color: #56C4C5;
+}
+
 .toTopBtn {
   width: 71px;
   height: 71px;
@@ -517,6 +531,22 @@ body {
 
 .CTABgSM {
   display: none;
+}
+
+.priceBanner {
+  background-color: #F7F9FD;
+  border-bottom-left-radius: 300px;
+}
+
+.priceBannerTitle {
+  margin-top: 92px;
+  margin-bottom: 16px;
+}
+
+.priceBannerImg {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 375px) {
