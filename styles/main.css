@@ -740,7 +740,7 @@ body {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
   body {
     background-size: 35% ,44% ,153px;
     background-position: left -77px top 743px ,top 3067px right -47px ,top 4827px left -76px;
