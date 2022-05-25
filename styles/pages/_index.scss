@@ -1,0 +1,106 @@
+.banner{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	&Content{
+		width: 49%;
+	}
+	&Img{
+		width: 49%;
+	}
+}
+
+.plantform{
+    width: 100%;
+	margin-top: 217px;
+	position: relative;
+    &Title{
+        text-align: center;
+    }
+
+}
+
+.cusmers{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	&Title{
+		color: $colorB;
+		text-align: center;
+	}
+
+	&Content{
+		color: $colorB;
+		text-align: center;
+		margin: 16px 0px 48px 0px;
+	}
+}
+
+.function{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	&Cards{
+		width: 49%;
+	}
+
+	&Content{
+		width: 49%;
+	}
+
+	&Content{
+
+		&Title{
+			margin-top: 165px;
+			margin-bottom: 16px;
+			margin-left: 16%;
+		}
+
+		&Content{
+			margin-bottom: 40px;
+			margin-left: 16%;
+		}
+
+		&Btn{
+			margin-left: 16%;
+		}
+
+	}
+
+}
+
+.proof{
+	margin-top: 72px;
+	position: relative;
+	&Title{
+	text-align: center;
+	}
+}
+
+.CTA{
+	padding-bottom: 117px;
+	position: relative;
+
+	&Content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&Btn{
+		margin-top: 36px;
+	}
+
+	&Bg{
+		width: 100%;
+
+		&SM{
+			display: none;
+		}
+	}
+	
+}
+// 首頁終

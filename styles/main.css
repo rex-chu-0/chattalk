@@ -740,6 +740,19 @@ body {
   display: none;
 }
 
+@media (max-width: 700px) {
+  .planBtns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .planBtns li {
+    margin: 20px 0px;
+  }
+}
+
 @media (max-width: 550px) {
   body {
     background-size: 35% ,44% ,153px;
@@ -980,16 +993,6 @@ body {
     margin-bottom: 24px;
     font-size: 32px;
     line-height: 40px;
-  }
-  .planBtns {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .planBtns li {
-    margin: 20px 0px;
   }
   .planBtn {
     margin: 0px 3px;

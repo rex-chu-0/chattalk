@@ -1,1 +1,17 @@
 // 作業先交  通靈平板之後再說
+@media (max-width: 700px){
+    .plan{
+        // 避免按鈕破版先加入調整
+	    &Btns{
+            flex-wrap: wrap;
+            justify-content: center;
+
+            & li{
+                // 沒有做curasel 排成上下兩排
+                margin: 20px 0px;
+
+            }
+	    }
+    }
+
+}

@@ -295,16 +295,17 @@
             line-height: 40px;
 	    }
 
-	    &Btns{
-            flex-wrap: wrap;
-            justify-content: center;
+        // 先移到pad避免按鈕破版問題
+	    // &Btns{
+        //     flex-wrap: wrap;
+        //     justify-content: center;
 
-            & li{
-                // 沒有做curasel 排成上下兩排
-                margin: 20px 0px;
+        //     & li{
+        //         // 沒有做curasel 排成上下兩排
+        //         margin: 20px 0px;
 
-            }
-	    }
+        //     }
+	    // }
 
 	    &Btn{
 		    margin: 0px 3px;
