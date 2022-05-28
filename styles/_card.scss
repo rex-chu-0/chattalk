@@ -64,10 +64,11 @@
 .functionCard{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     & li{
         width: 41%;
         margin-bottom: 28px;
-        margin-right: 47px;
+        // margin-right: 47px;
         border-radius: 12px;
         box-shadow: 0px 2px 10px #00000014;
         background-color: #fff;

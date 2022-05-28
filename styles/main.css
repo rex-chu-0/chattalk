@@ -219,12 +219,14 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .functionCard li {
   width: 41%;
   margin-bottom: 28px;
-  margin-right: 47px;
   border-radius: 12px;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
@@ -736,7 +738,7 @@ body {
   display: none;
 }
 
-@media (max-width: 790px) {
+@media (max-width: 900px) {
   .planBtns {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
